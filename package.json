@@ -1,0 +1,28 @@
+{
+  "name": "pirov2-plugins-ambient",
+  "version": "1.0.1",
+  "description": "A pirov2 plugin to report ambient temperature (in F and C), humidity and pressure (in Hg and hpa)",
+  "main": "ambient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnshshraiGit/pirov2-plugins-ambient.git"
+  },
+  "keywords": [
+    "ambient",
+    "pirov2-ambient",
+    "pirov2-plugins"
+  ],
+  "author": "Ganesh Shankar Rai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnshshraiGit/pirov2-plugins-ambient/issues"
+  },
+  "homepage": "https://github.com/gnshshraiGit/pirov2-plugins-ambient#readme",
+  "dependencies":{
+    "bme280-sensor": "^0.1.6",
+    "merge-json": "0.1.0-b.3"
+  }
+}
